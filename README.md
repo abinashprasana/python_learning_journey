@@ -8,7 +8,7 @@ Each folder contains grouped programs by theme, complete with individual README.
 
 ## 📁 Folders & Descriptions
 
-### [Basic_Calculators/](./Basic_Calculators)
+### [Basic_Calculators/]
 Programs related to arithmetic and financial calculations.
 - Simple calculator
 - Compound interest calculators
