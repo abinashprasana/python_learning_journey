@@ -1,13 +1,14 @@
 # 🎮 Games
 
-This repository contains a collection of beginner-friendly terminal-based Python games built as part of my learning journey. Each game explores different Python concepts like loops, conditionals, functions, input validation, and more.
+This repository contains a collection of beginner-friendly terminal-based Python games built as part of my learning journey.
+
+*Author:* Abinash Prasana
+
+Each game explores different Python concepts like loops, conditionals, functions, input validation, and more.
 
 ---
 
 ## 🧠 Quiz Game
-
-*Program:* Python Quiz Game  
-*Author:* Abinash Prasana
 
 ### 📌 Description:
 A terminal-based multiple-choice quiz game that:
@@ -16,9 +17,9 @@ A terminal-based multiple-choice quiz game that:
 - Tracks and displays the score at the end
 
 ### 🧠 Features:
-- Multiple-choice format
-- Input validation
-- Score tracking and percentage display
+- Multiple-choice format  
+- Input validation  
+- Score tracking and percentage display  
 
 ### ▶ Sample Output:
 bash
@@ -43,18 +44,15 @@ Your score is 80%
 
 ## 🎰 Slot Machine
 
-*Program:* Python Slot Machine  
-*Author:* Abinash Prasana
-
 ### 📌 Description:
 A simple betting-based slot machine game built in Python that:
-- Randomly spins symbols like 🍒, 🍉, 🍋, 🔔, ⭐
-- Lets users place bets and win based on matching rows
+- Randomly spins symbols like 🍒, 🍉, 🍋, 🔔, ⭐  
+- Lets users place bets and win based on matching rows  
 
 ### 🧠 Features:
-- Randomized outcomes
-- Bet handling and balance tracking
-- Payouts based on matched symbols
+- Randomized outcomes  
+- Bet handling and balance tracking  
+- Payouts based on matched symbols  
 
 ### ▶ Sample Output:
 bash
@@ -75,17 +73,14 @@ Game over! Your final balance is $120
 
 ## 🎯 Hangman Game
 
-*Program:* Python Hangman Game  
-*Author:* Abinash Prasana
-
 ### 📌 Description:
 A classic word-guessing game where the player tries to uncover a hidden word letter-by-letter before the hangman drawing completes.
 
 ### 🧠 Features:
-- ASCII-art hangman display
-- Random word selection from a word list
-- Letter tracking and guess validation
-- Win/lose messages
+- ASCII-art hangman display  
+- Random word selection from a word list  
+- Letter tracking and guess validation  
+- Win/lose messages  
 
 ### ▶ Sample Output:
 bash
@@ -107,6 +102,3 @@ Correct!
 ****************************
 a p p l e
 🏆 You win! 🏆
-
-
----
