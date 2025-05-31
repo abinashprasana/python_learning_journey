@@ -60,7 +60,7 @@ Answers: c d c a c
 Guesses: c d c b c  
 Your score is 80%
 ```
-###🎰 Slot Machine Output:
+### 🎰 Slot Machine Output:
 ```bash
 Current balance: $100
 Place your bet amount: $10
