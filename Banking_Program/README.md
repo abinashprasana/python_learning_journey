@@ -36,7 +36,7 @@ The script ensures proper validation for inputs and balance availability during 
 
 ```bash
 **********************************
-	Welcome to Banking Program
+    Welcome to Banking Program
 **********************************
 1.Show Balance
 2.Deposit
