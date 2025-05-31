@@ -1,52 +1,28 @@
 # 🎮 Games
 
-*Program Folder:* Python Quiz Game & Slot Machine  
+This repository contains a collection of beginner-friendly terminal-based Python games built as part of my learning journey. Each game explores different Python concepts like loops, conditionals, functions, input validation, and more.
+
+---
+
+## 🧠 Quiz Game
+
+*Program:* Python Quiz Game  
 *Author:* Abinash Prasana
 
----
+### 📌 Description:
+A terminal-based multiple-choice quiz game that:
+- Asks five general knowledge questions
+- Lets users input their guesses
+- Tracks and displays the score at the end
 
-## 📌 Description
+### 🧠 Features:
+- Multiple-choice format
+- Input validation
+- Score tracking and percentage display
 
-This folder contains beginner-friendly terminal-based games written in Python.  
-They were created as part of my Python relearning journey — to reinforce fundamentals while keeping it interactive and fun.
-
-Games included:
-
-- ✅ A general knowledge *Quiz Game* that evaluates answers and scores you
-- 🎰 A *Slot Machine* that lets you spin emoji reels and win based on lucky matches
-
----
-
-## 🧠 Features
-
-- Multiple-choice question logic  
-- Emoji reel spinning and reward system  
-- Score and balance tracking  
-- Input validation  
-- Use of random, loops, and conditionals
-
----
-
-## 🛠 How It Works
-
-### python_quiz_game.py  
-- Asks 5 general knowledge questions  
-- Accepts user input (a/b/c/d) and compares it with the correct answer  
-- Tracks guesses and calculates the final score as a percentage  
-
-### python_slot_machine.py  
-- Starts with a default balance ($100)  
-- Accepts bet input from the user  
-- Spins 3 emoji slots (🍒, 🍋, 🔔, ⭐, etc.)  
-- Rewards multiplier based on matching symbols  
-- Balance updates each round — continues until the user quits or balance is 0  
-
----
-
-## ▶ Sample Output
-
-### 🎲 Quiz Game
-```bash
+### ▶ Sample Output:
+bash
+---------------------------
 1. What is the capital of Canada?
 a) Toronto
 b) Vancouver
@@ -54,21 +30,83 @@ c) Ottawa
 d) Montreal
 Enter your option (a/b/c/d): c
 Correct!
-
-Result:
-Answers: c d c a c  
-Guesses: c d c b c  
+...
+---------------------------
+Result
+---------------------------
+Answers: c d c a c
+Guesses: c d c b c
 Your score is 80%
-```
-### 🎰 Slot Machine Output:
-```bash
+
+
+---
+
+## 🎰 Slot Machine
+
+*Program:* Python Slot Machine  
+*Author:* Abinash Prasana
+
+### 📌 Description:
+A simple betting-based slot machine game built in Python that:
+- Randomly spins symbols like 🍒, 🍉, 🍋, 🔔, ⭐
+- Lets users place bets and win based on matching rows
+
+### 🧠 Features:
+- Randomized outcomes
+- Bet handling and balance tracking
+- Payouts based on matched symbols
+
+### ▶ Sample Output:
+bash
 Current balance: $100
 Place your bet amount: $10
 
 Spinning.....
+**************
 🍒 | 🍒 | 🍒
+**************
 You won $30
 
 Would you like to play again? (Y/N): N
 Game over! Your final balance is $120
-```
+
+
+---
+
+## 🎯 Hangman Game
+
+*Program:* Python Hangman Game  
+*Author:* Abinash Prasana
+
+### 📌 Description:
+A classic word-guessing game where the player tries to uncover a hidden word letter-by-letter before the hangman drawing completes.
+
+### 🧠 Features:
+- ASCII-art hangman display
+- Random word selection from a word list
+- Letter tracking and guess validation
+- Win/lose messages
+
+### ▶ Sample Output:
+bash
+****************************
+ o
+ | 
+
+****************************
+_ _ _ _ _ _ _ 
+Enter a letter: e
+Correct!
+
+...
+
+****************************
+ o
+/|\
+/  \
+****************************
+a p p l e
+🏆 You win! 🏆
+
+
+---
