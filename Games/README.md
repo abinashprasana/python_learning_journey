@@ -59,7 +59,7 @@ Result:
 Answers: c d c a c  
 Guesses: c d c b c  
 Your score is 80%
-
+```
 ###🎰 Slot Machine Output:
 ```bash
 Current balance: $100
@@ -71,3 +71,4 @@ You won $30
 
 Would you like to play again? (Y/N): N
 Game over! Your final balance is $120
+```
