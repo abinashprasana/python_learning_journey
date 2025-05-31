@@ -1,49 +1,52 @@
-🎮 Games
+# 🎮 Games
 
-Program Folder: Python Quiz Game & Slot Machine
-Author: Abinash Prasana
+*Program Folder:* Python Quiz Game & Slot Machine  
+*Author:* Abinash Prasana
 
-⸻
+---
 
-📌 Description
+## 📌 Description
 
-This folder includes beginner-friendly terminal games written in Python.
-These projects are part of my Python relearning journey — combining basic programming concepts with fun and interactive logic.
+This folder contains beginner-friendly terminal-based games written in Python.  
+They were created as part of my Python relearning journey — to reinforce fundamentals while keeping it interactive and fun.
 
-The games:
-	•	✅ Ask questions and evaluate user answers
-	•	🎰 Simulate a slot machine with random emoji reels and payout logic
-	•	🧪 Practice input handling, randomness, and game flow
+Games included:
 
-⸻
+- ✅ A general knowledge *Quiz Game* that evaluates answers and scores you
+- 🎰 A *Slot Machine* that lets you spin emoji reels and win based on lucky matches
 
-🧠 Features
-	•	Multiple-choice quiz with scoring logic
-	•	Emoji-based slot machine with payout calculation
-	•	User input validation
-	•	Loop-based game flow
-	•	Random outcomes and terminal print formatting
+---
 
-⸻
+## 🧠 Features
 
-🛠 How It Works
+- Multiple-choice question logic  
+- Emoji reel spinning and reward system  
+- Score and balance tracking  
+- Input validation  
+- Use of random, loops, and conditionals
 
-python_quiz_game.py
-	•	Prompts 5 multiple-choice questions
-	•	Stores questions, options, and correct answers using tuples
-	•	Compares guesses and calculates the score
+---
 
-python_slot_machine.py
-	•	Starts with a default balance
-	•	Accepts bet, spins reels, and checks symbol matches
-	•	Pays out based on matching emojis (🍒, 🔔, ⭐ etc.)
-	•	Balance updates and loop continues until player quits or goes broke
+## 🛠 How It Works
 
-⸻
+### python_quiz_game.py  
+- Asks 5 general knowledge questions  
+- Accepts user input (a/b/c/d) and compares it with the correct answer  
+- Tracks guesses and calculates the final score as a percentage  
 
-▶ Sample Usage
+### python_slot_machine.py  
+- Starts with a default balance ($100)  
+- Accepts bet input from the user  
+- Spins 3 emoji slots (🍒, 🍋, 🔔, ⭐, etc.)  
+- Rewards multiplier based on matching symbols  
+- Balance updates each round — continues until the user quits or balance is 0  
 
-🎲 Quiz Game Output:
+---
+
+## ▶ Sample Output
+
+### 🎲 Quiz Game
+```bash
 1. What is the capital of Canada?
 a) Toronto
 b) Vancouver
@@ -52,15 +55,7 @@ d) Montreal
 Enter your option (a/b/c/d): c
 Correct!
 
+Result:
+Answers: c d c a c  
+Guesses: c d c b c  
 Your score is 80%
-
-🎰 Slot Machine Output:
-Current balance: $100
-Place your bet amount: $10
-
-Spinning.....
-🍒 | 🍒 | 🍒
-You won $30
-
-Would you like to play again? (Y/N): N
-Game over! Your final balance is $120
