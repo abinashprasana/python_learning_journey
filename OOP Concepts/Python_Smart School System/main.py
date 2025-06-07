@@ -1,3 +1,16 @@
+"""
+Python Smart School System
+
+Author: Abinash Prasana
+
+This program demonstrates the five types of inheritance in object-oriented programming using a smart school system simulation:
+1. Single Inheritance
+2. Multilevel Inheritance
+3. Multiple Inheritance
+4. Hierarchical Inheritance
+5. Hybrid Inheritance
+"""
+
 # Base class
 class Person:
     def __init__(self, name):
