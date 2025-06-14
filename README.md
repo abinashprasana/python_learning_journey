@@ -7,7 +7,7 @@ Each program focuses on practical problem-solving using core programming constru
 
 ## 📁 Folder Structure
 
-### 🧮 [Basic_Calculators](./Basic_Calculators)
+### 🧮 [Basic_Calculators](./Basic_Calcuators)
 Simple programs for math operations and interest calculation.
 - **simple_calculator.py** – Basic arithmetic operations
 - **compound_interest_calculator_v1.py** – CI calculation using user input
