@@ -1,5 +1,5 @@
 """
-Python Alarm Clock ⏰
+Alarm Clock ⏰
 
 Author: Abinash Prasana
 
